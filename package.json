@@ -12,6 +12,7 @@
   "author": "Ludovic Esperce",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "books-api": "file:",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
