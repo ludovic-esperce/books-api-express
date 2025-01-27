@@ -20,7 +20,7 @@ La "stack technique" du projet proposé est la suivante :
 
 ## Procédure
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Ce qui suit est une simplification de la procédure accessible en [cliquant ici](https://learn.microsoft.com/fr-fr/azure/app-service/tutorial-nodejs-mongodb-app?tabs=copilot&pivots=azure-portal)
 
 1. Créer un groupe de ressources au nom explicite.
@@ -38,7 +38,7 @@ Le plugin "Github" du centre de déploiement crée automatiquement le fichier de
 
 7. Créer un jeu de test en base de données
 
-> ![ALERT]
+> [!ALERT]
 > Si le pipeline "Github Action" bloque lors de la phase de déploiement sur Microsoft Azure ajoutez à votre "Application Web" Azure la variable d'environnement suivante :
 > `WEBSITE_RUN_FROM_PACKAGE = 1`
 
