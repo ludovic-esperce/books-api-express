@@ -38,7 +38,7 @@ Le plugin "Github" du centre de déploiement crée automatiquement le fichier de
 
 7. Créer un jeu de test en base de données
 
-> [!ALERT]
+> [!CAUTION]
 > Si le pipeline "Github Action" bloque lors de la phase de déploiement sur Microsoft Azure ajoutez à votre "Application Web" Azure la variable d'environnement suivante :
 > `WEBSITE_RUN_FROM_PACKAGE = 1`
 
